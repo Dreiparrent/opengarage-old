@@ -1,9 +1,11 @@
+@import "./color-variables.scss";
 $white-color: (
   "base": #FFFFFF
 );
 $black-color: (
   "base": #000000
 );
+/*
  $primary: (
   "lighten-5":  #E0F3F4,
   "lighten-4":  #B3E2E3,
@@ -20,6 +22,24 @@ $black-color: (
   "accent-3":   #3BF7FF,
   "accent-4":   #22F6FF
 );
+*/
+$primary: (
+  'lighten-5' : #f2e4ec,
+  'lighten-4' : #debbcf,
+  'lighten-3' : #c88eaf,
+  'lighten-2' : #b2608e,
+  'lighten-1' : #a23e76,
+  'base' : #911c5e,
+  'darken-1' : #891956,
+  'darken-2' : #7e144c,
+  'darken-3' : #741142,
+  'darken-4' : #620931,
+  'accent-1' : #ff95be,
+  'accent-2' : #ff629f,
+  'accent-3' : #ff2f80,
+  'accent-4' : #ff1571
+);
+/*
 $success: (
   "lighten-5":  #E2F8F0,
   "lighten-4":  #B6EDD8,
@@ -35,6 +55,22 @@ $success: (
   "accent-2":   #96FFC3,
   "accent-3":   #63FFA5,
   "accent-4":   #4AFF96
+);*/
+ $success: (
+  "lighten-5":  #E0F3F4,
+  "lighten-4":  #B3E2E3,
+  "lighten-3":  #80CED0,
+  "lighten-2":  #4DBABD,
+  "lighten-1":  #26ACAE,
+  "base":       #009DA0,
+  "darken-1":   #009598,
+  "darken-2":   #008B8E,
+  "darken-3":   #008184,
+  "darken-4":   #006F73,
+  "accent-1":   #A1FBFF,
+  "accent-2":   #6EF9FF,
+  "accent-3":   #3BF7FF,
+  "accent-4":   #22F6FF
 );
 $info: (
   "lighten-5":  #E4F7FA,

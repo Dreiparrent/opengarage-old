@@ -8,28 +8,19 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent } from './app.component';
 import { ContentLayoutComponent } from "./layouts/content/content-layout.component";
 import { FullLayoutComponent } from "./layouts/full/full-layout.component";
+import { SearchLayoutComponent } from './layouts/search/search-layout.component';
 
 import { AuthService } from './shared/auth/auth.service';
 import { AuthGuard } from './shared/auth/auth-guard.service';
 
 import * as $ from 'jquery';
-import { SearchComponent } from './pages/search/search.component';
-import { SearchPageComponent } from './pages/search-page/search-page.component';
-import { SearchLayoutComponent } from './layouts/search-layout/search-layout.component';
-import { SearchLayoutPageComponent } from './pages/search-layout-page/search-layout-page.component';
-
-
-
 
 @NgModule({
     declarations: [
         AppComponent,
         FullLayoutComponent,
         ContentLayoutComponent,
-        SearchComponent,
-        SearchPageComponent,
         SearchLayoutComponent,
-        SearchLayoutPageComponent
     ],
     imports: [
         BrowserAnimationsModule,

@@ -2,9 +2,9 @@ import { Routes, RouterModule } from '@angular/router';
 
 //Route for content layout without sidebar, navbar and footer for pages like Login, Registration etc...
 
-export const CONTENT_ROUTES: Routes = [
+export const SEARCH_ROUTES: Routes = [
     {
-        path: 'search-layout',
-        loadChildren: './pages/search-layout-page/content-pages.module#ContentPagesModule'
+        path: 'search',
+        loadChildren: './pages/search-layout-page/search-pages.module#SearchPagesModule'
     }
 ];
