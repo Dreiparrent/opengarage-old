@@ -1,3 +1,4 @@
+<div class="navbar" hidden></div>
 <section class="row full-height-vh gradient-celestial mx-0">
   <div class="col-12 d-flex align-items-center justify-content-center px-0">
     <div class="col-md-10">
@@ -17,7 +18,7 @@
       </form>
       <div class="row d-flex align-items-center justify-content-center">
         <!--(click)="scroll(explore)"-->
-        <a href="search#explore" class="btn btn-lg btn-outline-secondary text-white col-md-4 m-3">Explore</a>
+        <a href="search#explore" class="btn btn-lg btn-outline-pink text-white col-md-4 m-3">Explore</a>
         <br>
       </div>
       <div class="col-12 d-flex align-items-center justify-content-center mt-3">
@@ -28,44 +29,22 @@
 </section>
 <section #explore class="full-height">
   <div class="content-wrapper">
-  <div class="content-header text-center">Explore</div>
+    <div class="content-header text-center">Explore</div>
     <div class="container-fluid col-12">
-      <div class="row mx-0">
-        <div class="card col-sm-6 col-lg-4 col-xl-3">
-          <div class="card-header text-center">
-            <img alt="Baxter" class="rounded-circle gradient-celestial" src="assets/img/baxter.jpg" width="150">
-          </div>
-          <div class="card-body" aria-expanded="true">
-            <div class="card-block text-center">
-              <h4 class="text-bold-600">Baxter Cochennet</h4>
-            </div>
-          </div>
-          <div class="card-footer">
-            <div class="row text-center">
-             <div class="col-6 col-xs-6">
-              <a>
-                <i class="ft-globe mr-1"></i>
-                <span>Denver</span>
-              </a>
-             </div>
-             <div class="col-6 col-xs-6">
-              <a>
-                <i class="ft-radio mr-1"></i>
-                <span>15</span>
-              </a>
-             </div>
-            </div>
-          </div>
-        </div>
+      <div class="row mx-0 text-center">
+        <app-profile-card class="col-sm-6 col-lg-4 col-xl-3" name="Baxter Cochennet" location="Denver" connects="15"></app-profile-card>
       </div>
     </div>
   </div>
 </section>
-<section class="parallax text-center white">
-  <h1>Open Garage</h1>
-  <h3>Some Text</h3>
-  <p>Explore the talent in your community</p>
+<section class="parallax white row mx-0">
+  <div class="col-12 d-flex align-items-center justify-content-center">
+    <div class="text-center">
+      <h1>Open Garage</h1>
+      <h3>Explore the talent in your community</h3>
+    </div>
+  </div>
 </section>
-<section>
+<section class="height-400">
   <div class="content-header text-center">Get Started</div>  
 </section>

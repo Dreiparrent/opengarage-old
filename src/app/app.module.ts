@@ -1,4 +1,3 @@
-
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
@@ -9,6 +8,7 @@ import { AppComponent } from './app.component';
 import { ContentLayoutComponent } from "./layouts/content/content-layout.component";
 import { FullLayoutComponent } from "./layouts/full/full-layout.component";
 import { SearchLayoutComponent } from './layouts/search/search-layout.component';
+import { LoginComponent } from './layouts/login/login.component';
 
 import { AuthService } from './shared/auth/auth.service';
 import { AuthGuard } from './shared/auth/auth-guard.service';
@@ -21,6 +21,7 @@ import * as $ from 'jquery';
         FullLayoutComponent,
         ContentLayoutComponent,
         SearchLayoutComponent,
+        LoginComponent
     ],
     imports: [
         BrowserAnimationsModule,
