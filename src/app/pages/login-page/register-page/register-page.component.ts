@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import * as $ from 'jquery';
 
 declare var jQuery: any;
@@ -6,7 +6,13 @@ declare var jQuery: any;
 @Component({
   selector: 'app-register-page',
   templateUrl: './register-page.component.html',
-  styleUrls: ['./register-page.component.scss']
+  styleUrls: ['./register-page.component.scss'],
+  styles: [`
+    label {
+        color: white !important;
+    }
+  `],
+  encapsulation: ViewEncapsulation.None
 })
 export class RegisterPageComponent implements OnInit {
 

@@ -7,7 +7,7 @@ import { NgModule } from '@angular/core';
 import { FooterComponent } from "./footer/footer.component";
 import { NavbarComponent } from "./navbar/navbar.component";
 import { SidebarComponent } from "./sidebar/sidebar.component";
-import { ProfileCardComponent } from './profile-card/profile-card.component';
+import { ProfileCardComponent } from './cards/profile-card/profile-card.component';
 import { ToggleFullscreenDirective } from "./directives/toggle-fullscreen.directive";
 
 @NgModule({

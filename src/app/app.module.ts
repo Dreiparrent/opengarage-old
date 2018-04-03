@@ -7,7 +7,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent } from './app.component';
 import { ContentLayoutComponent } from "./layouts/content/content-layout.component";
 import { FullLayoutComponent } from "./layouts/full/full-layout.component";
-import { SearchLayoutComponent } from './layouts/search/search-layout.component';
+import { SearchComponent } from './layouts/search/search.component';
 import { LoginComponent } from './layouts/login/login.component';
 
 import { AuthService } from './shared/auth/auth.service';
@@ -20,7 +20,7 @@ import * as $ from 'jquery';
         AppComponent,
         FullLayoutComponent,
         ContentLayoutComponent,
-        SearchLayoutComponent,
+        SearchComponent,
         LoginComponent
     ],
     imports: [

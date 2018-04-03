@@ -5,6 +5,6 @@ import { Routes, RouterModule } from '@angular/router';
 export const SEARCH_ROUTES: Routes = [
     {
         path: 'search',
-        loadChildren: './pages/search-layout-page/search-pages.module#SearchPagesModule'
+        loadChildren: './pages/search-page/search-pages.module#SearchPagesModule'
     }
 ];

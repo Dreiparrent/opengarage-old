@@ -1,6 +1,6 @@
-
 $(document).ready(function(){
-	// Cache selectors
+    // Cache selectors
+    /*
 	var lastId,
 	    topMenu = $(".navbar"),
 	    topMenuHeight = topMenu.outerHeight()+0,
@@ -10,8 +10,17 @@ $(document).ready(function(){
 	    scrollItems = menuItems.map(function(){
 	      var item = $($(this).attr("href"));
 	      if (item.length) { return item; }
-	    });
-
+        });
+        */
+    var lastId,
+        topMenu = $('.scrollItems'),
+        menuItems = topMenu.find('a'),
+        topMenuHeight = 0,
+        scrollItems = menuItems.map(function() {
+            var item = $($(this).attr('href'));
+            if (item.length) { return item; }
+        });
+    
 	// Bind click handler to menu items
 	// so we can get a fancy scroll animation
 	menuItems.click(function(e){
@@ -21,7 +30,7 @@ $(document).ready(function(){
 	      scrollTop: offsetTop
 	  }, 900);
 	  e.preventDefault();
-	});
+    });
 
 	// Bind to scroll
 	$(window).scroll(function(){
@@ -44,6 +53,6 @@ $(document).ready(function(){
 	         .parent().removeClass("active")
 	         .end().filter("[href='#"+id+"']").parent().addClass("active");
 	   }                   
-	});
+    });
 });
 
