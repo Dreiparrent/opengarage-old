@@ -1,27 +1,24 @@
-# Apex
+# Open Garage
+
+The open repository for tracking changes to the Open Garage public website.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
-## Development server
+## Apex
 
-Run `ng serve` or `ng serve -aot` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+This project uses the Apex framework and cannot be redistributed under any circumstances without licenced ownership of the Apex Admin Template.
 
-## Code scaffolding
+## Development
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
+This project is being developed by Andrei Parrent and uses Apex user a Regular License currrently owned by Andrei Parrent.
+
+## Copyright
+
+All filed and written text within this repository, that is not a part of any third party license, is owned by Open Garage LLC, and is being developed by Andrei Parrent. Upon completion all third party license agreements will be transferred to Open Garage LLC.
 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
 
 ## Further help
 
